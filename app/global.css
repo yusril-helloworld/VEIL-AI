@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    background-color: #08090a;
-    color: #f3f4f6;
-    overflow-x: hidden;
-  }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0d0e15;
+  color: #ffffff
+
 }
 
 /* Glassmorphism & Glow Effects */
